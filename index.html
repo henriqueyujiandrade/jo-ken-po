@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-paper-scissors</title>
+  <link rel="stylesheet" href="/src/styles/reset.css">
+  <link rel="stylesheet" href="/src/styles/style.css">
+</head>
+
+<body>
+  <section class="rules">
+    <h1>JanKenPon!</h1>
+    <h2>Regras: Pedra vence tesoura; Papel vence pedra; Tesoura vence papel.</h2> 
+    <h3>Vence quem obter 10 vitórias primeiro.</h3>
+  </section>
+
+  <section class="playArea">
+    <div class="infoGame">
+      <div class='contagemPlayer'>
+        <h2>Player</h2>
+        <h3>Vitórias:</h3>
+        <span id="vitoriasPlayer">0</span>
+      </div>
+      <div class="victoryMsg">
+        <span class="showWinner" id="showWin">
+          VAMOS JOGAR!!!
+        </span>
+      </div>
+      <div class='contagemNpc'>
+        <h2>NPC</h2>
+        <h3>Vitórias:</h3>
+        <span id="vitoriasNpc">0</span>
+      </div>
+    </div>
+    <div >
+      <ul class="showMoves">
+        <li>
+          <figure>
+            <img src="/src/img/telainicial.jpg" alt="Inicio">
+          </figure>
+        </li>        
+      </ul>
+    </div>
+    <div class="clickArea">
+      <select class="chooseSpot" id="playOption">
+        <option value="Pedra">Pedra</option>
+        <option value="Papel">Papel</option>
+        <option value="Tesoura">Tesoura</option>
+
+      </select>
+      <button id="btn">Jogar</button>
+      <button id="rst">Resetar</button>
+    </div>
+  </section>
+
+  </div>
+  <script type="module"  src="/src/script.js"></script>
+</body>
+
+</html>

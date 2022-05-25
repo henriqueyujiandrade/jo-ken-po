@@ -1,0 +1,232 @@
+/* Escreva seu código aqui */
+body{
+    background-color: papayawhip;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.rules{
+    width: 100% ;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;    
+    background-color: rgba(139, 51, 24, 0.9);
+    border-radius: 20px;
+    align-items: center;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.rules>h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.rules>h2{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.rules>h3{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.playArea{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+    width: 100%;
+    height: 400px;
+    background-image: url(/src/img/mesa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.infoGame{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contagemPlayer{
+    width: 70px;
+    height:100px;
+    background-image: url(/src/img/pagina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.contagemPlayer>h2{
+    font-size: 16px;
+}
+
+.contagemPlayer>h3{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contagemPlayer>span{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+
+.contagemNpc{
+    width: 70px;
+    height:100px;
+    background-image: url(/src/img/pagina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.contagemNpc>h2{    
+    font-size: 16px;
+}
+
+.contagemNpc>h3{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contagemNpc>span{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.victoryMsg{
+    align-self: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;      
+}
+
+
+
+.showMoves {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.showMoves > li > figure{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 10px;    
+}
+
+.showMoves > li > figure > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+@media  screen and (min-width:768px) {
+
+    body{
+        background-image: url(/src/img/background-rps.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;  
+    }
+
+    .rules{
+        width: 600px ;
+        margin-bottom: 20px;        
+    }
+
+    .rules>h1{
+        font-size: 30px;        
+    }
+
+    .rules>h2{
+        font-size: 20px;
+        
+    }
+
+    .rules>h3{
+        font-size: 20px;       
+    }
+    
+    
+    .playArea{           
+        width: 600px;       
+        
+    }  
+    
+    .contagemPlayer{
+        width: 100px;
+        margin-left: 20px;
+        margin-top:20px;
+        
+    }
+
+    .contagemPlayer>h2{
+        font-size: 20px;
+    }
+    
+    .contagemPlayer>h3{       
+        font-size: 20px;
+    }    
+    
+    .contagemNpc{
+        width: 100px;        
+        margin-right: 20px;
+        margin-top:20px;
+        
+    }
+
+    .contagemNpc>h2{    
+        font-size: 20px;
+    }
+    
+    .contagemNpc>h3{        
+        font-size: 20px;
+    }   
+    
+    .victoryMsg{        
+        font-size: 16px;        
+    }
+
+    .showMoves {
+        width: 500px;
+    }
+    
+    .showMoves > li > figure{
+        width: 150px;
+        height: 150px;        
+    }  
+
+}
