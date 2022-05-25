@@ -2,8 +2,8 @@
 Introdução
 ----------
 
-Nesta entrega você criará **um** dos jogos abaixo usando os conceitos de
-**POO** aprendidos durante a sprint.
+Criar jogo usando os conceitos de
+**POO**.
 
 ------------------------------------------------------------------------
 
